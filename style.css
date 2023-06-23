@@ -18,7 +18,7 @@ body {
 }
 
 .main-container {
-  width: 21vw;
+  width: 25vw;
   box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ body {
 
 @media (max-width: 768px) {
   .main-container {
-    width: 90vw;
+    width:25vw;
   }
 }
 
@@ -287,23 +287,5 @@ ul li.paused {
   vertical-align: middle;
 }
 
-@media (max-width: 662px) {
-  .main-container {
-    width:70%;
-    height: 60%;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-  }
 
-  .music-section>img {
-    width: 120px;
-    height: 120px;
-  }
-}
 
-@media (max-width: 768px) {
-  .main-container {
-    width: 90vw;
-  }
-}
